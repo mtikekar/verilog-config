@@ -1,0 +1,7 @@
+library synlib *.syn.v;
+
+config cfg;
+    design worklib.a;
+    default liblist worklib;
+    instance a.u_b liblist synlib;
+endconfig
