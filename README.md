@@ -47,6 +47,6 @@ Also look at the options `-filemap/-endfilemap` and `-makelib/-endlib`. `makelib
 irun -libverbose a.v c.v d.v -makelib synlib *.syn.v -endlib -libmap lib.map -top cfg
 ```
 
-The syntax of lib.map is specified in Verilog 2001 standard (IEE Standard 1364-2001 Version C, Chapter 13 "Configuring the contents of a design"). This feature should be supported by other simulators as well.
+The syntax of lib.map is specified in Verilog 2001 standard (IEEE Standard 1364-2001 Version C, Chapter 13 "Configuring the contents of a design"). This feature should be supported by other simulators as well.
 
 However, this feature cannot be used with the older `-v, -y` options of specifying source files and folders as libraries.
